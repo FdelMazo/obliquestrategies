@@ -45,7 +45,7 @@ def get_strategy(edition='any'):
                 edition = idx + 1
                 break
     elif edition not in EDITIONS:
-        raise ValueError("Unknown edition: {}".format(edition))
+        raise ValueError("Unknown edition: {} \nValid editions: [1,2,3,4] or [1975,1978,1979,1996]".format(edition))
     module = os.path.abspath(os.path.dirname(__file__))
     filepath = os.path.join(module, 'resources', EDITIONS[edition])
     with open(filepath) as deck:
