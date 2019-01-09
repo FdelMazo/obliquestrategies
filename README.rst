@@ -23,7 +23,7 @@ Unsurprisingly, considering the creative nature of programming, this works very 
 
 To understand more about this method, you should read `<http://www.rtqe.net/ObliqueStrategies>`_ which also serves as the original sources for every deck in this module.
 
-This Python module and terminal command gives you one Oblique Strategy per run, taken from any of the original three decks or from the fourth special one.
+This Python module and terminal command gives you one Oblique Strategy per run, taken from any of the original three decks or from the fourth special one. This comprises the first edition (1975), the second one (1978), the third one (1979), and the fourth one (1996), which has a `pretty interesting story <http://www.rtqe.net/ObliqueStrategies/Edition4.html>`_ 
 
 ------------
 
@@ -39,11 +39,32 @@ Usage
 
 .. code:: python
 
-    from obliquestrategies import get_strategy
-    print(get_strategy())
+    >>> from obliquestrategies import get_strategy
+    >>> print(get_strategy())
+    Work at a different speed
+
+Deck editions can be specified by edition number or edition year
+
+.. code:: python
+
+    >>> print(get_strategy(1))
+    Trust in the you of now
+    >>> print(get_strategy(1975))
+    How would you have done it?
 
 From a terminal
 ===============
+
 .. code:: bash
 
-    obliquestrategies
+    $ obliquestrategies
+    What would your closest friend do?
+
+And once again, editions can be specified by numer or year with the :code:`--edition` option.
+
+.. code:: bash
+
+    $ obliquestrategies --edition 2
+    Turn it upside down
+    $ obliquestrategies -e 1978
+    Repetition is a form of change
