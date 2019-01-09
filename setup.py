@@ -12,7 +12,8 @@ setup(name='obliquestrategies',
       url='https://github.com/FdelMazo/obliquestrategies',
       author='FdelMazo',
       packages=['obliquestrategies'],
-      scripts=['script/obliquestrategies'],
+      scripts=['script/obliquestrategies'],     
+      package_data={'obliquestrategies': ['resources/*.txt']}, 
       classifiers=[
           'Programming Language :: Python :: 2',
           'Programming Language :: Python :: 3'
