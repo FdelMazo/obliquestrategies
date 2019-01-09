@@ -6,7 +6,7 @@ def readme():
 
 
 setup(name='obliquestrategies',
-      version='0.2',
+      version='0.3',
       description='Over One Hundred Worthwhile Dilemmas',
       long_description=readme(),
       url='https://github.com/FdelMazo/obliquestrategies',
