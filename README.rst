@@ -34,24 +34,6 @@ Installing
 
     pip install obliquestrategies
 
-Usage
-=====
-
-.. code:: python
-
-    >>> from obliquestrategies import get_strategy
-    >>> print(get_strategy())
-    Work at a different speed
-
-Deck editions can be specified by edition number or edition year
-
-.. code:: python
-
-    >>> print(get_strategy(1))
-    Trust in the you of now
-    >>> print(get_strategy(1975))
-    How would you have done it?
-
 From a terminal
 ===============
 
@@ -60,7 +42,7 @@ From a terminal
     $ obliquestrategies
     What would your closest friend do?
 
-And once again, editions can be specified by numer or year with the :code:`--edition` option.
+Editions can be specified by number or year with the :code:`--edition` option.
 
 .. code:: bash
 
@@ -68,3 +50,21 @@ And once again, editions can be specified by numer or year with the :code:`--edi
     Turn it upside down
     $ obliquestrategies -e 1978
     Repetition is a form of change
+
+Within Python
+=====
+
+.. code:: python
+
+    >>> from obliquestrategies import get_strategy
+    >>> print(get_strategy())
+    Work at a different speed
+
+Once again, deck editions can be specified by edition number or edition year
+
+.. code:: python
+
+    >>> print(get_strategy(1))
+    Trust in the you of now
+    >>> print(get_strategy(1975))
+    How would you have done it?
