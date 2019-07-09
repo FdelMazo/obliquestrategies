@@ -2,22 +2,20 @@
 Oblique Strategies
 ==================
 
+Over One Hundred Worthwhile Dilemmas
+
 .. image:: https://badge.fury.io/py/obliquestrategies.svg
     :target: https://badge.fury.io/py/obliquestrategies
 
-Over One Hundred Worthwhile Dilemmas
-====================================
+------------
 
-Created by Brian Eno and Peter Schmidt, first published in 1975
-===============================================================
+**Created by Brian Eno and Peter Schmidt, first published in 1975**
 
 This work is forked from `CrossNox's Programming Excuses <https://github.com/CrossNox/programmingexcuses>`_
 
 Delving deep into the history and development of `David Bowie's Heroes <https://www.youtube.com/watch?v=lXgkuM2NhYI>`_ I found out that during the recording of the album, Brian Eno made use of his set of cards: Oblique Strategies.
 
-
-
-In 1975, the magnificent `Brian Eno <https://www.youtube.com/watch?v=lCCJc_V8_MQ>`_ and `Peter Schmidt <http://www.rtqe.net/ObliqueStrategies/images/Schmidt1.jpg>`_ designed a method for promoting creativity, where each card offers a way to break mental blocks. In the subsequent years more and more editions of the deck of cards were made.
+In 1975, the magnificent `Brian Eno <https://www.youtube.com/watch?v=lCCJc_V8_MQ>`_ and `Peter Schmidt <http://www.rtqe.net/ObliqueStrategies/images/Schmidt1.jpg>`_ designed a method for promoting creativity, a deck of cards where each card offers a way to break mental blocks. In the subsequent years more and more editions of the deck of cards were made.
 
 Unsurprisingly, considering the creative nature of programming, this works very well when trying to overcome a deadlock in the midst of coding. 
 
@@ -25,7 +23,6 @@ To understand more about this method, you should read `<http://www.rtqe.net/Obli
 
 This Python module and terminal command gives you one Oblique Strategy per run, taken from any of the original three decks or from the fourth special one. This comprises the first edition (1975), the second one (1978), the third one (1979), and the fourth one (1996), which has a `pretty interesting story <http://www.rtqe.net/ObliqueStrategies/Edition4.html>`_ 
 
-------------
 
 Installing
 ==========
@@ -51,6 +48,9 @@ Editions can be specified by number or year with the :code:`--edition` option.
     $ obliquestrategies -e 1978
     Repetition is a form of change
 
+.. image:: https://i.imgur.com/7SgfT0j.gif
+    :target: https://asciinema.org/a/256366
+
 Within Python
 =====
 
@@ -68,3 +68,6 @@ Once again, deck editions can be specified by edition number or edition year
     Trust in the you of now
     >>> print(get_strategy(1975))
     How would you have done it?
+
+.. image:: https://i.imgur.com/3JNigtx.gif
+    :target: https://asciinema.org/a/256367
