@@ -11,6 +11,9 @@ Over One Hundred Worthwhile Dilemmas
 
 **Created by Brian Eno and Peter Schmidt, first published in 1975**
 
+.. image:: https://i.imgur.com/7SgfT0j.gif
+    :target: https://asciinema.org/a/256366
+
 This work is forked from `CrossNox's Programming Excuses <https://github.com/CrossNox/programmingexcuses>`_
 
 Delving deep into the history and development of `David Bowie's Heroes <https://www.youtube.com/watch?v=lXgkuM2NhYI>`_ I found out that during the recording of the album, Brian Eno made use of his set of cards: Oblique Strategies.
@@ -47,9 +50,6 @@ Editions can be specified by number or year with the :code:`--edition` option.
     Turn it upside down
     $ obliquestrategies -e 1978
     Repetition is a form of change
-
-.. image:: https://i.imgur.com/7SgfT0j.gif
-    :target: https://asciinema.org/a/256366
 
 Within Python
 =====
